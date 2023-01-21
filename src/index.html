@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <webview id="view" src="https://chat.openai.com/"></webview>
+</body>
+
+<script>
+    const webview = document.getElementById('view');
+    document.body.appendChild(webview);
+    webview.style.position = "absolute";
+    webview.style.top = "0px";
+    webview.style.left = "0px";
+    webview.style.right = "0px";
+    webview.style.bottom = "0px";
+</script>
+
+</html>
